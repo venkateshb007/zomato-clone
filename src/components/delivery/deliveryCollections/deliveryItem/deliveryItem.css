@@ -1,0 +1,37 @@
+.delivery-item-cover{
+    height: 150px;
+    width: 150px;
+    background-color: var(--primary-bg);
+    border-radius: 50%;
+    /* box-shadow: var(--collection-shadow); */
+    /* border-radius: 8px; */
+}
+
+.delivery-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.delivery-item-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+/* .delivery-item-title{
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+    line-height: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 1.2rem;
+    margin: 0.6rem 0px 0px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
